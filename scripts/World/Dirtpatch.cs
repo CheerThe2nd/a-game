@@ -13,6 +13,9 @@ public partial class Dirtpatch : Node3D
     [Export]
     Label3D interactLabel;
 
+    [Export]
+    MeshInstance3D groundDirtPatch;
+
     DirtPatchState currentDirtPatchState = DirtPatchState.Dry;
     CharacterBody3D player;
 
@@ -27,8 +30,8 @@ public partial class Dirtpatch : Node3D
     {
         Vector3 positionOfPlayer = player.Position;
         Vector3 positionOfDirtPatch = Position;
-        float distance = Position.DistanceTo(positionOfPlayer);
-        if (distance < 10f)
+        float distanceToPlayer = Position.DistanceTo(positionOfPlayer);
+        if (distanceToPlayer < 10f)
         {
             interactLabel.Visible = true;
 
@@ -39,6 +42,11 @@ public partial class Dirtpatch : Node3D
                     case DirtPatchState.Dry:
                         currentDirtPatchState = DirtPatchState.Watered;
                         interactLabel.Text = "Press F to make it YoungCactus";
+                        StandardMaterial3D newMaterial = new StandardMaterial3D();
+                        newMaterial.AlbedoTexture = (Texture2D)GD.Load("res://assets/textures/wet_dirt.png");
+
+                        groundDirtPatch.Visible = true;
+                        groundDirtPatch.SetSurfaceOverrideMaterial(0, newMaterial);
                         break;
                     case DirtPatchState.Watered:
                         currentDirtPatchState = DirtPatchState.YoungCactus;
@@ -54,12 +62,15 @@ public partial class Dirtpatch : Node3D
                         break;
                     case DirtPatchState.YoungCactus:
                         currentDirtPatchState = DirtPatchState.AgedCactus;
-                        cactus.Mesh = (Mesh)GD.Load("res://assets/models/cactus/Cactus_2.obj");
+                        string cactusModelPath = GetPathForCactus(currentDirtPatchState);
+                        cactus.Mesh = (Mesh)GD.Load(cactusModelPath);
                         interactLabel.Text = "Press F to make it Cactus Flower";
                         break;
                     case DirtPatchState.AgedCactus:
-                        cactus.Mesh = (Mesh)GD.Load("res://assets/models/cactus/CactusFlowers_2.obj");
-                        interactLabel.Text = "Congratulions on your first grown cactus!";
+                        currentDirtPatchState = DirtPatchState.CactusWithFlowers;
+                        cactusModelPath = GetPathForCactus(currentDirtPatchState);
+                        cactus.Mesh = (Mesh)GD.Load(cactusModelPath);
+                        interactLabel.Text = "Congratulions on your first grown cactus! Now sell it";
                         break;
                 }
             }
@@ -70,16 +81,16 @@ public partial class Dirtpatch : Node3D
         }
     }
 
-    private string GetPathForCactus()
+    private string GetPathForCactus(DirtPatchState cactusState)
     {
-        switch (currentDirtPatchState)
+        switch (cactusState)
         {
             case DirtPatchState.YoungCactus:
-                return "res://assets/models/cactus/Cactus_3.obj";
+                return "res://assets/models/nature/cactus/Cactus_3.obj";
             case DirtPatchState.AgedCactus:
-                return "res://assets/models/cactus/Cactus_2.obj";
+                return "res://assets/models/nature/cactus/Cactus_2.obj";
             case DirtPatchState.CactusWithFlowers:
-                return "res://assets/models/cactus/CactusFlowers_2.obj";
+                return "res://assets/models/nature/cactus/CactusFlowers_2.obj";
             default: return "";
         }
     }
