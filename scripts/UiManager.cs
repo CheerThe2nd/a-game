@@ -2,21 +2,21 @@ using Godot;
 
 public partial class UiManager : Control
 {
-    public static UiManager Instance;
+	public static UiManager Instance;
 
-    GameManager ObjectiveManager;
+	GameManager ObjectiveManager;
 
-    [Export]
-    public Label CurrentObjectiveLabel { get; set; }
+	[Export]
+	public Label CurrentObjectiveLabel { get; set; }
 
-    [Export]
-    public Label InteractLabel { get; set; }
+	[Export]
+	public Label InteractLabel { get; set; }
 
-    [Export]
-    public Label CoinsLabel { get; set; }
+	[Export]
+	public Label CoinsLabel { get; set; }
 
-    public override void _Ready()
-    {
-        Instance = this;
-    }
+	public override void _Ready()
+	{
+		Instance = this;
+	}
 }

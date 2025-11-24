@@ -22,6 +22,7 @@ public partial class Player : CharacterBody3D
 	private bool _wasOnFloor = false;
 	private Vector3? _grappleHit = null;
 	private float _grappleStren = 80.0f;
+	private Rope _rope = null;
 
 	public override void _Ready()
 	{
@@ -60,15 +61,30 @@ public partial class Player : CharacterBody3D
 
 		// --- Raycast action ---
 		if (Input.IsActionJustPressed("mouse_click"))
+		{
 			_grappleHit = GetCamRaycast(playerCamera, 100.0f);
+			if (_grappleHit != null)
+			{
+				PackedScene ropeScene = GD.Load<PackedScene>("res://assets/prefabs/rope.tscn");
+				_rope = ropeScene.Instantiate<Rope>();
+				GetTree().CurrentScene.AddChild(_rope);
+			}
+		}
 		if (Input.IsActionJustReleased("mouse_click"))
+		{
 			_grappleHit = null;
+			if(_rope != null)
+				_rope.QueueFree();
+		}
 
 		if (_grappleHit.HasValue)
 		{
+			_rope.startPoint = playerCamera.GlobalPosition - new Vector3(0f, 0.3f, 0f);
+			_rope.endPoint = _grappleHit.Value;
+
 			Vector3 toGrapple = _grappleHit.Value - playerCamera.GlobalPosition;
 			toGrapple = toGrapple.Normalized();
-			Velocity += toGrapple * (float)delta * _grappleStren * playerCamera.Position.DistanceTo(_grappleHit.Value) / 50.0f;
+			Velocity += toGrapple * (float)delta * _grappleStren * playerCamera.Position.DistanceTo(_grappleHit.Value) / 10.0f;
 		}
 	}
 

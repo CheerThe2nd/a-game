@@ -58,8 +58,7 @@
               "RelativeToolTip": "scripts\\World\\GrowPlot.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:34:11.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:34:11.044Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "scripts\\World\\Shop.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:33:20.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:33:20.454Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "scripts\\World\\World.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:33:10.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:33:10.301Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "scripts\\UiManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:33:05.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:33:05.202Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:32:33.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:32:33.978Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "scripts\\GameConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:32:33.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:32:33.411Z"
             },
             {
               "$type": "Document",
@@ -134,7 +128,7 @@
               "RelativeDocumentMoniker": "scripts\\Player\\Player.cs",
               "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\Player.cs",
               "RelativeToolTip": "scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T15:33:41.849Z",
               "EditorCaption": ""
