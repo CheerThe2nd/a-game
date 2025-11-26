@@ -26,6 +26,7 @@ public partial class Rope : Node3D
 		_noise.FractalOctaves = 3;
 		_noise.Frequency = 0.1f;
 		_noise.Seed = (int)Time.GetTicksMsec();
+		_visualEndPoint = startPoint;
 		AddChild(_meshInstance);
 	}
 

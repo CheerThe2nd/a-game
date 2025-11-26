@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\finnf\\source\\repos\\a-game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\player\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\player\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\world\\growplot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Rope.cs",
+              "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\Rope.cs",
+              "RelativeDocumentMoniker": "scripts\\Items\\Rope.cs",
+              "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\Rope.cs",
+              "RelativeToolTip": "scripts\\Items\\Rope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:47:00.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerCamera.cs",
+              "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\PlayerCamera.cs",
+              "RelativeDocumentMoniker": "scripts\\Player\\PlayerCamera.cs",
+              "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\PlayerCamera.cs",
+              "RelativeToolTip": "scripts\\Player\\PlayerCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:23:00.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemHolder.cs",
+              "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\ItemHolder.cs",
+              "RelativeDocumentMoniker": "scripts\\Items\\ItemHolder.cs",
+              "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\ItemHolder.cs",
+              "RelativeToolTip": "scripts\\Items\\ItemHolder.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:09:16.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GrowPlot.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\World\\GrowPlot.cs",
               "RelativeDocumentMoniker": "scripts\\World\\GrowPlot.cs",
@@ -62,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Shop.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\World\\Shop.cs",
               "RelativeDocumentMoniker": "scripts\\World\\Shop.cs",
@@ -74,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "World.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\World\\World.cs",
               "RelativeDocumentMoniker": "scripts\\World\\World.cs",
@@ -86,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UiManager.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\UiManager.cs",
               "RelativeDocumentMoniker": "scripts\\UiManager.cs",
@@ -98,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "scripts\\GameManager.cs",
@@ -110,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GameConstants.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\GameConstants.cs",
               "RelativeDocumentMoniker": "scripts\\GameConstants.cs",
@@ -122,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "scripts\\Player\\Player.cs",
               "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\Player.cs",
               "RelativeToolTip": "scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwFYAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T15:33:41.849Z",
               "EditorCaption": ""

@@ -65,7 +65,7 @@ uv1_triplanar = true
 script = ExtResource("1_g4441")
 
 [node name="Player" parent="." instance=ExtResource("1_jfn6f")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3043249, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3464248, -1.9233544)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_g4441")

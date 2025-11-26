@@ -3,18 +3,18 @@
 [ext_resource type="Script" uid="uid://dwh4te3qryprb" path="res://scripts/Player/Player.cs" id="1_8cprv"]
 [ext_resource type="Script" uid="uid://rlnwok4wt4pf" path="res://scripts/Player/PlayerCamera.cs" id="2_5ov36"]
 [ext_resource type="Script" uid="uid://dfdaryd7e53v6" path="res://scripts/Items/ItemHolder.cs" id="3_5ov36"]
+[ext_resource type="PackedScene" uid="uid://qt7hxhe5fdo4" path="res://assets/scenes/watering_can_root.tscn" id="4_6rjsx"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0f027"]
 radius = 0.7
 height = 3.6
 
-[sub_resource type="BoxMesh" id="BoxMesh_5ov36"]
-
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_0f027"]
 
-[node name="Player" type="CharacterBody3D" groups=["player"]]
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("_waterCan") groups=["player"]]
 axis_lock_angular_z = true
 script = ExtResource("1_8cprv")
+_waterCan = NodePath("PlayerCamera/ItemHolder/WateringCanRoot")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_0f027")
@@ -23,13 +23,12 @@ shape = SubResource("CapsuleShape3D_0f027")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.632436, 0)
 script = ExtResource("2_5ov36")
 
-[node name="Node3D" type="Node3D" parent="PlayerCamera"]
+[node name="ItemHolder" type="Node3D" parent="PlayerCamera"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, -0.632436, -1.1197517)
 script = ExtResource("3_5ov36")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="PlayerCamera/Node3D"]
-transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 1, 0, 0, 0)
-mesh = SubResource("BoxMesh_5ov36")
+[node name="WateringCanRoot" parent="PlayerCamera/ItemHolder" instance=ExtResource("4_6rjsx")]
+transform = Transform3D(0.395, 0, 0, 0, 0.395, 0, 0, 0, 0.395, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.042737484, 0)
