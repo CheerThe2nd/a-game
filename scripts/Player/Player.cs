@@ -22,8 +22,7 @@ public partial class Player : CharacterBody3D
 	// --- Movement related ---
 	private PlayerMovement _playerMovement;
 
-	[Export]
-	private WateringCan _waterCan; // TODO: make item base class so that we have one var for current item which then in turn inherites
+	[Export] private WateringCan _waterCan; // TODO: make item base class so that we have one var for current item which then in turn inherites
 
 	public override void _Ready()
 	{

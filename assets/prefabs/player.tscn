@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://dwh4te3qryprb" path="res://scripts/Player/Player.cs" id="1_8cprv"]
 [ext_resource type="Script" uid="uid://rlnwok4wt4pf" path="res://scripts/Player/PlayerCamera.cs" id="2_5ov36"]
 [ext_resource type="Script" uid="uid://dfdaryd7e53v6" path="res://scripts/Items/ItemHolder.cs" id="3_5ov36"]
-[ext_resource type="PackedScene" uid="uid://qt7hxhe5fdo4" path="res://assets/scenes/watering_can_root.tscn" id="4_6rjsx"]
+[ext_resource type="PackedScene" uid="uid://qt7hxhe5fdo4" path="res://assets/prefabs/watering_can_root.tscn" id="4_6rjsx"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0f027"]
 radius = 0.7

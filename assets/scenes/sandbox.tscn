@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bw0h8c2s5lrcx"]
+[gd_scene load_steps=20 format=3 uid="uid://bw0h8c2s5lrcx"]
 
 [ext_resource type="Script" uid="uid://dial8v0hrborf" path="res://scripts/World/World.cs" id="1_g4441"]
 [ext_resource type="PackedScene" uid="uid://c3u241jodcos6" path="res://assets/prefabs/player.tscn" id="1_jfn6f"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bls7vx4t3sj10" path="res://assets/textures/gridbox/prototype_512x512_blue2.png" id="4_jkola"]
 [ext_resource type="Texture2D" uid="uid://dbxnyraidvlwf" path="res://assets/textures/gridbox/prototype_512x512_orange.png" id="5_mcr2k"]
 [ext_resource type="Texture2D" uid="uid://djychtt2b0kh3" path="res://assets/textures/gridbox/prototype_512x512_green1.png" id="6_afmqb"]
+[ext_resource type="PackedScene" uid="uid://git6c62dwtjy" path="res://assets/prefabs/watering_can.tscn" id="7_afmqb"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_mcr2k"]
 panorama = ExtResource("3_88qla")
@@ -91,6 +92,16 @@ surface_material_override/0 = SubResource("StandardMaterial3D_pyoiq")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Block1"]
 shape = SubResource("BoxShape3D_88qla")
 
+[node name="Block4" type="StaticBody3D" parent="."]
+transform = Transform3D(3.6633866, -2.0764039, 2.69595, 1.6723592, 4.5484667, 1.2307184, -2.9635816, 0, 4.0270567, 15.152918, -0.29590034, -2.9085217)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Block4"]
+mesh = SubResource("BoxMesh_jsqd1")
+surface_material_override/0 = SubResource("StandardMaterial3D_pyoiq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Block4"]
+shape = SubResource("BoxShape3D_88qla")
+
 [node name="Block2" type="StaticBody3D" parent="."]
 transform = Transform3D(-4.2046585, 0, 9.073083, 0, 10, 0, -9.073083, 0, -4.2046585, -14.157277, 0.29550266, 8.975576)
 
@@ -114,3 +125,6 @@ shape = SubResource("SphereShape3D_bfht4")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.49012807, 0.6372669, -0.5946978, 0, 0.68226635, 0.7311037, 0.87165046, -0.35833445, 0.33439788, 0, 5.8219624, 0)
 shadow_enabled = true
+
+[node name="RigidBody3D" parent="." instance=ExtResource("7_afmqb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2255545, 2.8008044)

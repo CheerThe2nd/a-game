@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\wateringcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\wateringcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\player\\playercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\wateringcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\wateringcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|solutionrelative:scripts\\items\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2ADC91A-68BC-4D74-8F41-F440A7DEF4DD}|a-game.csproj|c:\\users\\finnf\\source\\repos\\a-game\\scripts\\world\\growplot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "scripts\\Player\\PlayerMovement.cs",
@@ -78,25 +78,24 @@
               "RelativeToolTip": "scripts\\Player\\PlayerMovement.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvzUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T18:24:15.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T18:24:15.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WateringCan.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\WateringCan.cs",
               "RelativeDocumentMoniker": "scripts\\Items\\WateringCan.cs",
               "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\WateringCan.cs",
               "RelativeToolTip": "scripts\\Items\\WateringCan.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T18:10:33.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Rope.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\Rope.cs",
               "RelativeDocumentMoniker": "scripts\\Items\\Rope.cs",
@@ -104,12 +103,11 @@
               "RelativeToolTip": "scripts\\Items\\Rope.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:47:00.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T20:47:00.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerCamera.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\PlayerCamera.cs",
               "RelativeDocumentMoniker": "scripts\\Player\\PlayerCamera.cs",
@@ -117,18 +115,17 @@
               "RelativeToolTip": "scripts\\Player\\PlayerCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:23:00.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T20:23:00.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ItemHolder.cs",
               "DocumentMoniker": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\ItemHolder.cs",
               "RelativeDocumentMoniker": "scripts\\Items\\ItemHolder.cs",
               "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Items\\ItemHolder.cs",
               "RelativeToolTip": "scripts\\Items\\ItemHolder.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T20:09:16.11Z",
               "EditorCaption": ""
@@ -213,7 +210,7 @@
               "RelativeDocumentMoniker": "scripts\\Player\\Player.cs",
               "ToolTip": "C:\\Users\\finnf\\source\\repos\\a-game\\scripts\\Player\\Player.cs",
               "RelativeToolTip": "scripts\\Player\\Player.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T15:33:41.849Z",
               "EditorCaption": ""

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://qt7hxhe5fdo4"]
 
 [ext_resource type="Script" uid="uid://ck81smpocro7p" path="res://scripts/Items/WateringCan.cs" id="1_g70nf"]
-[ext_resource type="ArrayMesh" uid="uid://cl6rfqgshrvvp" path="res://assets/models/items/watering_can.res" id="2_h0c3x"]
+[ext_resource type="ArrayMesh" uid="uid://clcw4tf32hf0e" path="res://assets/models/items/watering_can.res" id="2_h0c3x"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m3mx"]
 albedo_color = Color(0, 0, 1, 1)
@@ -21,7 +21,7 @@ physics_interpolation_mode = 2
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4079406, -1.1818204)
 material_override = SubResource("StandardMaterial3D_4m3mx")
 emitting = false
-amount = 40
+amount = 90
 lifetime = 1.39
 mesh = SubResource("SphereMesh_jv51w")
 direction = Vector3(0, 1, -1)

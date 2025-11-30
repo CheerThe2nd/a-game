@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://git6c62dwtjy"]
+
+[ext_resource type="Script" uid="uid://ck81smpocro7p" path="res://scripts/Items/WateringCan.cs" id="1_tgvaq"]
+[ext_resource type="ArrayMesh" uid="uid://clcw4tf32hf0e" path="res://assets/models/items/watering_can.res" id="2_sedxx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bfht4"]
+size = Vector3(0.7246094, 1.9418335, 1.3083496)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m3mx"]
+albedo_color = Color(0, 0, 1, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_jv51w"]
+
+[node name="RigidBody3D" type="RigidBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47091675, 0.13708496)
+shape = SubResource("BoxShape3D_bfht4")
+
+[node name="WateringCanRoot" type="Node3D" parent="." node_paths=PackedStringArray("_waterParticle")]
+script = ExtResource("1_tgvaq")
+_waterParticle = NodePath("CPUParticles3D")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WateringCanRoot"]
+transform = Transform3D(0.4, 0, 0, 0, -1.7484556e-08, 0.4, 0, -0.4, -1.7484556e-08, 0, 0, 0)
+mesh = ExtResource("2_sedxx")
+
+[node name="CPUParticles3D" type="CPUParticles3D" parent="WateringCanRoot"]
+physics_interpolation_mode = 2
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4079406, -1.1818204)
+material_override = SubResource("StandardMaterial3D_4m3mx")
+emitting = false
+amount = 90
+lifetime = 1.39
+mesh = SubResource("SphereMesh_jv51w")
+direction = Vector3(0, 1, -1)
+spread = 0.0
+initial_velocity_min = 2.0
+initial_velocity_max = 2.0
+scale_amount_min = 0.05
+scale_amount_max = 0.1
